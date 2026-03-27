@@ -21,6 +21,18 @@ color:rgba(0, 120, 36, 0.81)
 
 <hr>
 
+## <span class="yellow"> [1.6.1] (1.21.1) 2026-03-27</span>
+### Additions
+- Added Iron's Patreon Lib integration
+- Added Polish Localization, thanks to TopTophat
+
+### Changes
+- Invalid jewelry attempts to render an outline of the jewelry piece, instead of an empty model
+
+### Fixes
+- Fixed issue where Jewelcraft Guide could have issues opening on a dedicated server
+- Fixed hash collisions
+
 ## <span class="yellow"> [1.6.0] (1.21.1) 2024-12-20</span>
 ### Additions
 - Added Jewelcrafting and You: A guide to Gems 'n Jewelry
