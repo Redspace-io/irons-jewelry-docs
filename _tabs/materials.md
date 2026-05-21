@@ -12,7 +12,7 @@ toc: true
 }
 </style>
 {% assign sorted = site.data.material_data | sort: 'quality'%}
-{% assign groups = site.data.material_data | group_by: 'types'%}
+{% assign groups = site.data.material_data | group_by: 'group'%}
 {% for group in groups %}
   <h2 id="{{group.name}}"> {{group.name}}</h2>
   <hr>
