@@ -21,6 +21,21 @@ color:rgba(0, 120, 36, 0.81)
 
 <hr>
 
+## <span class="yellow"> [2.0.0] (1.21.1) 2026-06-12</span>
+# API
+- Changed `MaterialDefinition` `ingredient` type from an Empty-Allowed Ingredient, with an Optional of a Non-Empty Ingredient
+  - ie, ingredient cannot be empty if specified, but is no longer required to be specified
+- Replaced psuedo-material-tagging with actual material tags
+  - Removed `MaterialDefintion` `materialType`
+  - Removed `PartDefinition` `allowedMaterialTypes`
+  - Added `PartDefinition` `allowedMaterials`, a holder set (tag key) of `MaterialDefintion` that the part can be made from
+- Added default material tags
+  - `irons_jewelry:metal`
+  - `irons_jewelry:gem`
+  - `irons_jewelry:gem_or_metal`
+- Removed Apothic Attributes dependency
+  - Attributes replaced with equivalent Iron's Lib attributes
+
 ## <span class="yellow"> [1.6.1] (1.21.1) 2026-03-27</span>
 ### Additions
 - Added Iron's Patreon Lib integration
