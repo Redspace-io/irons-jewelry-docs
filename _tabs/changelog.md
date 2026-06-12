@@ -31,7 +31,7 @@ color:rgba(0, 120, 36, 0.81)
   - Added `PartDefinition` `allowedMaterials`, a holder set (tag key) of `MaterialDefintion` that the part can be made from
 - Added default material tags
   - `irons_jewelry:metal`
-  - `irons_jewelry:gem`
+  - `irons_jewelry:gem` 
   - `irons_jewelry:gem_or_metal`
 - Removed Apothic Attributes dependency
   - Attributes replaced with equivalent Iron's Lib attributes
