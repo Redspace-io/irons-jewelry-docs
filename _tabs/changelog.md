@@ -36,9 +36,9 @@ color:rgba(0, 120, 36, 0.81)
 - Removed Apothic Attributes dependency
   - Attributes replaced with equivalent Iron's Lib attributes
 
-## <span class="yellow"> [1.6.1] (1.21.1) 2026-03-27</span>
+## <span class="yellow"> [1.6.1.1] (1.21.1) 2026-03-27</span>
 ### Additions
-- Added Iron's Patreon Lib integration
+- Added Iron's Lib integration
 - Added Polish Localization, thanks to TopTophat
 
 ### Changes
