@@ -21,8 +21,25 @@ color:rgba(0, 120, 36, 0.81)
 
 <hr>
 
+## <span class="yellow"> [2.0.1] (1.21.1 | 26.1.2) 2026-06-24</span>
+### Changes
+- Updated Portuguese-Brazil localizations, thanks for PrincessStellar
+- (26.1.2) Replaced uses of `minecraft:additional_trade_cost` item component with custom price handler. Also fixes potential crashes related to said component. 
+
+## <span class="yellow"> [2.0.0.3] (26.1.2) 2026-06-22</span>
+### Fixes
+- Fixed dedicated server startup issue
+
+## <span class="yellow"> [2.0.0.2] (26.1.2) 2026-06-22</span>
+### Fixes
+- Fixed recipe format for jewelcrafting station and guidebook
+
+## <span class="yellow"> [2.0.0.1] (26.1.2) 2026-06-21</span>
+### Fixes
+- Fixed missing dependency clause
+
 ## <span class="yellow"> [2.0.0] (1.21.1) 2026-06-12</span>
-# API
+### API
 - Changed `MaterialDefinition` `ingredient` type from an Empty-Allowed Ingredient, with an Optional of a Non-Empty Ingredient
   - ie, ingredient cannot be empty if specified, but is no longer required to be specified
 - Replaced psuedo-material-tagging with actual material tags
