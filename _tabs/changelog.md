@@ -21,6 +21,13 @@ color:rgba(0, 120, 36, 0.81)
 
 <hr>
 
+## <span class="yellow"> [2.0.2] (1.21.1 | 26.1.2) 2026-07-03</span>
+### Changes
+- Updated to Iron's Lib 2.0 API
+
+### Fixes
+- Added safeguards for damage event to prevent potential crash when damage event chain is invalid
+
 ## <span class="yellow"> [2.0.1] (1.21.1 | 26.1.2) 2026-06-24</span>
 ### Changes
 - Updated Portuguese-Brazil localizations, thanks for PrincessStellar
